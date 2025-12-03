@@ -46,9 +46,12 @@ $0(|V|^3)$
 johnson: O(|V| * |E| log|E|). therefore the algorithm is preferable when $|E|log|E|< |V|^2$
 
 - **3a.**
+Yest, every MST is also a minimum maximum edge tree.
 
-
-- **3b.**
+- **3b.** 
+ Start with the MSt, T.
+Consider all |E| possible swaps to get alt trees T', and pick the lightest one.
 
 
 - **3c.**
+- O(|E|log|E|)
