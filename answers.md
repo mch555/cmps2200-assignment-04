@@ -23,7 +23,13 @@ so $Θ(m * 1/ε)=Θ(m)$
 
 
 - **2a.**
+$$\mathbf{k=-1} \quad W = \begin{pmatrix} 0 & -2 & 2 \\ \infty & 0 & 1 \\ \infty & 2 & 0 \end{pmatrix}$$
 
+$$\mathbf{k=0} \quad APSP(i, j, 0) = \begin{pmatrix} 0 & -2 & 2 \\ \infty & 0 & 1 \\ \infty & 2 & 0 \end{pmatrix}$$
+
+$$\mathbf{k=1} \quad APSP(i, j, 1) = \begin{pmatrix} 0 & -2 & -1 \\ \infty & 0 & 1 \\ \infty & 2 & 0 \end{pmatrix}$$
+
+$$\mathbf{k=2} \quad APSP(i, j, 2) = \begin{pmatrix} 0 & -2 & -1 \\ \infty & 0 & 1 \\ \infty & 2 & 0 \end{pmatrix}$$
 
 - **2b.**
 
