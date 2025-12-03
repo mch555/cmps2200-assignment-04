@@ -16,7 +16,7 @@ delete min work: $Θ(d log_d n)$
 insert work: $Θ(log_d n)$
 
 - **1c.**
-
+$Θ(|E| * log_d|V| + |V| * d log_d |V|)$
 - **1d.**
 
 
