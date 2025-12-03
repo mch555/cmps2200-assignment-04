@@ -18,6 +18,8 @@ insert work: $Θ(log_d n)$
 - **1c.**
 $Θ(|E| * log_d|V| + |V| * d log_d |V|)$
 - **1d.**
+pick $d=m/n$ to make delete min and insert costs equal. Total work is $Θ(2m log_m/n n) = Θ(m*logn/log(m/n))$.
+so $Θ(m * 1/ε)=Θ(m)$
 
 
 - **2a.**
