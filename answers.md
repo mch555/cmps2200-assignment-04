@@ -12,7 +12,8 @@
 $Θ(log_d n)$
 
 - **1b.**
-
+delete min work: $Θ(d log_d n)$
+insert work: $Θ(log_d n)$
 
 - **1c.**
 
